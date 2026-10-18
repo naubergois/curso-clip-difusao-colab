@@ -25,6 +25,7 @@ RUIDO = (
     "torch_dtype",
     "local_dir_use_symlinks",
     "torch.jit.script",
+    "dispositivo:",
 )
 
 

@@ -14,6 +14,43 @@ Cada notebook abre direto no Google Colab, instala o que precisa e traz seis exe
 
 No Colab, use **Ambiente de execução → Executar tudo**. As aulas 1 e 2 rodam em CPU. Nas aulas 3 a 5, uma GPU T4 ajuda: o SD-Turbo baixa uns 2 GB na primeira vez e gera cada foto em poucos passos.
 
+## Os 30 exercícios, um notebook cada
+
+Cada exercício também existe como notebook próprio, já executado do começo ao fim: prepara os dados, deixa uma célula para tentar e mostra uma solução conferida.
+
+| Aula | Exercício | Abrir |
+|---|---|---|
+| 1 | 1. Quem ganhou | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula1-exercicio1-quem-ganhou.ipynb) |
+| 1 | 2. A frase, por extenso | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula1-exercicio2-a-frase-por-extenso.ipynb) |
+| 1 | 3. O cosseno do vencedor | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula1-exercicio3-o-cosseno-do-vencedor.ipynb) |
+| 1 | 4. Acima de 20% | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula1-exercicio4-acima-de-20.ipynb) |
+| 1 | 5. Outra disputa | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula1-exercicio5-outra-disputa.ipynb) |
+| 1 | 6. O multiplicador | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula1-exercicio6-o-multiplicador.ipynb) |
+| 2 | 1. A palavra vencedora | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula2-exercicio1-a-palavra-vencedora.ipynb) |
+| 2 | 2. A frase vencedora | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula2-exercicio2-a-frase-vencedora.ipynb) |
+| 2 | 3. A forma da frase mudou o vencedor? | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula2-exercicio3-a-forma-da-frase-mudou-o-vencedor.ipynb) |
+| 2 | 4. Primeira da busca | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula2-exercicio4-primeira-da-busca.ipynb) |
+| 2 | 5. Última da busca | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula2-exercicio5-ultima-da-busca.ipynb) |
+| 2 | 6. Folga do primeiro | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula2-exercicio6-folga-do-primeiro.ipynb) |
+| 3 | 1. Largura da foto | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula3-exercicio1-largura-da-foto.ipynb) |
+| 3 | 2. Canais do latente | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula3-exercicio2-canais-do-latente.ipynb) |
+| 3 | 3. Passos que o treino conhece | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula3-exercicio3-passos-que-o-treino-conhece.ipynb) |
+| 3 | 4. Outra semente | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula3-exercicio4-outra-semente.ipynb) |
+| 3 | 5. Lado do latente | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula3-exercicio5-lado-do-latente.ipynb) |
+| 3 | 6. Escala do VAE | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula3-exercicio6-escala-do-vae.ipynb) |
+| 4 | 1. Quase sem ruído | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula4-exercicio1-quase-sem-ruido.ipynb) |
+| 4 | 2. Quase só ruído | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula4-exercicio2-quase-so-ruido.ipynb) |
+| 4 | 3. O tamanho não muda | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula4-exercicio3-o-tamanho-nao-muda.ipynb) |
+| 4 | 4. Longe da original | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula4-exercicio4-longe-da-original.ipynb) |
+| 4 | 5. Quadros da volta | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula4-exercicio5-quadros-da-volta.ipynb) |
+| 4 | 6. Passos do img2img | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula4-exercicio6-passos-do-img2img.ipynb) |
+| 5 | 1. A mais perto da frase | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula5-exercicio1-a-mais-perto-da-frase.ipynb) |
+| 5 | 2. A semente vencedora | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula5-exercicio2-a-semente-vencedora.ipynb) |
+| 5 | 3. A mais longe | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula5-exercicio3-a-mais-longe.ipynb) |
+| 5 | 4. Folga | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula5-exercicio4-folga.ipynb) |
+| 5 | 5. Outra frase, as mesmas fotos | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula5-exercicio5-outra-frase-as-mesmas-fotos.ipynb) |
+| 5 | 6. Acima da média | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula5-exercicio6-acima-da-media.ipynb) |
+
 ## Modelos e fotos
 
 - CLIP `openai/clip-vit-base-patch32`
@@ -24,7 +61,7 @@ O Turbo erra letra miúda e detalhe de mão. Serve para ver o mecanismo, não pa
 
 ## Editar
 
-Os notebooks são gerados por `build_notebooks.py`. Os exercícios ficam em `exercicios.py`. Para atualizar, gere, execute e limpe:
+Os notebooks das aulas são gerados por `build_notebooks.py`. Os exercícios ficam em `exercicios.py`, e os notebooks avulsos saem de `build_exercicios.py`. Para atualizar, gere, execute e limpe:
 
 ```bash
 pip install nbformat nbconvert ipykernel torch transformers diffusers accelerate matplotlib pillow

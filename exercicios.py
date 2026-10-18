@@ -189,7 +189,7 @@ from PIL import Image
 
 
 def _pixels(img):
-    return list(img.resize((16, 16)).getdata())
+    return img.resize((16, 16)).tobytes()
 
 
 VERIFICAR = {

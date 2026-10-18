@@ -215,8 +215,9 @@ def notebook(nome, celulas):
     print("ok", nome)
 
 
-# ---------------------------------------------------------------- 01
-notebook("01-clip-imagem-e-texto.ipynb", [
+if __name__ == "__main__":
+    # ---------------------------------------------------------------- 01
+    notebook("01-clip-imagem-e-texto.ipynb", [
     ("md", """
 {BADGE}
 
@@ -278,8 +279,8 @@ CLIP não desenha caixa e não gera imagem. Ele responde qual texto combina com 
 """),
 ])
 
-# ---------------------------------------------------------------- 02
-notebook("02-clip-zero-shot-e-busca.ipynb", [
+    # ---------------------------------------------------------------- 02
+    notebook("02-clip-zero-shot-e-busca.ipynb", [
     ("md", """
 {BADGE}
 
@@ -358,8 +359,8 @@ Zero-shot é uma disputa de cossenos com textos escritos na hora. Na foto dos ga
 """),
 ])
 
-# ---------------------------------------------------------------- 03
-notebook("03-difusao-texto-para-imagem.ipynb", [
+    # ---------------------------------------------------------------- 03
+    notebook("03-difusao-texto-para-imagem.ipynb", [
     ("md", """
 {BADGE}
 
@@ -417,8 +418,8 @@ Uma frase, uma semente e poucos passos já devolvem uma foto. O Turbo não usa o
 """),
 ])
 
-# ---------------------------------------------------------------- 04
-notebook("04-difusao-ruido-e-passos.ipynb", [
+    # ---------------------------------------------------------------- 04
+    notebook("04-difusao-ruido-e-passos.ipynb", [
     ("md", """
 {BADGE}
 
@@ -549,8 +550,8 @@ A ida é uma conta: `alpha_bar` pesa a foto, o resto é ruído, e no fim do trei
 """),
 ])
 
-# ---------------------------------------------------------------- 05
-notebook("05-clip-escolhe-a-imagem.ipynb", [
+    # ---------------------------------------------------------------- 05
+    notebook("05-clip-escolhe-a-imagem.ipynb", [
     ("md", """
 {BADGE}
 
