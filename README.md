@@ -14,7 +14,7 @@ Cada notebook abre direto no Google Colab, instala o que precisa e traz seis exe
 
 No Colab, use **Ambiente de execução → Executar tudo**. As aulas 1 e 2 rodam em CPU. Nas aulas 3 a 5, uma GPU T4 ajuda: o SD-Turbo baixa uns 2 GB na primeira vez e gera cada foto em poucos passos.
 
-## Os 30 exercícios, um notebook cada
+## Os 24 exercícios, um notebook cada
 
 Cada exercício também existe como notebook próprio, já executado do começo ao fim: prepara os dados, deixa uma célula para tentar e mostra uma solução conferida.
 
@@ -44,12 +44,6 @@ Cada exercício também existe como notebook próprio, já executado do começo 
 | 4 | 4. Longe da original | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula4-exercicio4-longe-da-original.ipynb) |
 | 4 | 5. Quadros da volta | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula4-exercicio5-quadros-da-volta.ipynb) |
 | 4 | 6. Passos do img2img | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula4-exercicio6-passos-do-img2img.ipynb) |
-| 5 | 1. A mais perto da frase | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula5-exercicio1-a-mais-perto-da-frase.ipynb) |
-| 5 | 2. A semente vencedora | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula5-exercicio2-a-semente-vencedora.ipynb) |
-| 5 | 3. A mais longe | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula5-exercicio3-a-mais-longe.ipynb) |
-| 5 | 4. Folga | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula5-exercicio4-folga.ipynb) |
-| 5 | 5. Outra frase, as mesmas fotos | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula5-exercicio5-outra-frase-as-mesmas-fotos.ipynb) |
-| 5 | 6. Acima da média | [Colab](https://colab.research.google.com/github/naubergois/curso-clip-difusao-colab/blob/main/exercicios/aula5-exercicio6-acima-da-media.ipynb) |
 
 ## Modelos e fotos
 

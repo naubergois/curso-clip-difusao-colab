@@ -276,9 +276,12 @@ def novo_notebook():
 
 
 def lista_exercicios():
+    """24 notebooks: seis exercícios nas aulas 1 a 4. A aula 5 fica no notebook da aula."""
     saida = []
     for aula_nb, aula in EXERCICIOS.items():
         k = int(aula_nb[:2])
+        if k > 4:
+            continue
         for n, ex in enumerate(aula["lista"], start=1):
             saida.append((aula_nb, k, n, ex, f"aula{k}-exercicio{n}-{slug(ex['titulo'])}.ipynb"))
     return saida
@@ -295,7 +298,7 @@ def gerar():
             fecho = (f"Próximo: [Aula {proximo[1]}, exercício {proximo[2]}: {proximo[3]['titulo']}]"
                      f"({colab_url('exercicios/' + proximo[4])}).")
         else:
-            fecho = "Esse foi o último dos 30. A frase pede a foto, e o CLIP mede se ela voltou perto do pedido."
+            fecho = "Esse foi o último dos 24. O strength decide quanto da foto de partida ainda manda."
 
         celulas = [
             ("md", f"""{badge('exercicios/' + arquivo)}
